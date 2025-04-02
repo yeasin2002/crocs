@@ -6,7 +6,13 @@
 
 @layer base {
   body {
-    @apply bg-black overflow-x-hidden;
+    @apply bg-black overflow-x-hidden font-proxima_nova;
+  }
+}
+
+@layer components {
+  .title {
+    @apply font-bold font-proxima_nova;
   }
 }
 

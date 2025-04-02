@@ -20,6 +20,10 @@ module.exports = {
         pp_monument: ["pp_monument", "sans-serif"],
         montserrat: ["montserrat", "sans-serif"],
       },
+      colors: {
+        secondary: "#FF485E",
+      },
+
       backgroundImage: {
         hero__gradient:
           "radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.50) 0%, #FFF 100%);",
