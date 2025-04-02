@@ -582,6 +582,36 @@ video {
   }
 }
 
+.slide-container {
+  display: block;
+  text-align: center;
+}
+
+.slide-wrapper {
+  position: relative;
+  margin-bottom: 1.25rem;
+  border-radius: 1rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 72 94 / var(--tw-border-opacity));
+}
+
+.slide-wrapper .slide-img {
+  max-height: 20rem;
+  width: 100%;
+  min-width: 100%;
+  border-radius: 1rem;
+}
+
+.slide-wrapper .slide-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 4px;
+  --tw-text-opacity: 1;
+  color: rgb(255 72 94 / var(--tw-text-opacity));
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -802,12 +832,6 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.\!select-none {
-  -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-          user-select: none !important;
 }
 
 .grid-cols-1 {
@@ -1114,8 +1138,8 @@ video {
   font-family: "PP Monument Extended";
 
   src: url("../fonts/PPMonumentExtended-Regular.woff2") format("woff2"),
-      url("../fonts/PPMonumentExtended-Regular.woff") format("woff"),
-      url("../fonts/PPMonumentExtended-Regular.ttf") format("truetype");
+    url("../fonts/PPMonumentExtended-Regular.woff") format("woff"),
+    url("../fonts/PPMonumentExtended-Regular.ttf") format("truetype");
 
   font-weight: normal;
 
@@ -1128,8 +1152,8 @@ video {
   font-family: "PP Monument Extended";
 
   src: url("../fonts/PPMonumentExtended-Black.woff2") format("woff2"),
-      url("../fonts/PPMonumentExtended-Black.woff") format("woff"),
-      url("../fonts/PPMonumentExtended-Black.ttf") format("truetype");
+    url("../fonts/PPMonumentExtended-Black.woff") format("woff"),
+    url("../fonts/PPMonumentExtended-Black.ttf") format("truetype");
 
   font-weight: 800;
 
@@ -1142,8 +1166,8 @@ video {
   font-family: "PP Monument Extended";
 
   src: url("../fonts/PPMonumentExtended-Light.woff2") format("woff2"),
-      url("../fonts/PPMonumentExtended-Light.woff") format("woff"),
-      url("../fonts/PPMonumentExtended-Light.ttf") format("truetype");
+    url("../fonts/PPMonumentExtended-Light.woff") format("woff"),
+    url("../fonts/PPMonumentExtended-Light.ttf") format("truetype");
 
   font-weight: 200;
 
@@ -1191,10 +1215,6 @@ video {
   cursor: pointer;
 }
 
-.slide:hover {
-  transform: scale(0.8);
-}
-
 .offcanva {
   position: fixed;
   width: 320px;
@@ -1232,8 +1252,8 @@ video {
 
 .offcanva__menu ul li a:hover {
   padding-left: 40px;
-  color: #FF485E;
-  border-color: #FF485E;
+  color: #ff485e;
+  border-color: #ff485e;
 }
 
 .ss1 {
@@ -1381,10 +1401,6 @@ video {
 
   .md\:pb-64 {
     padding-bottom: 16rem;
-  }
-
-  .md\:pr-4 {
-    padding-right: 1rem;
   }
 
   .md\:pt-28 {
