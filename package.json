@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+        "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css ",
         "start": "echo starting project  && exit 1"
     },
     "keywords": [],
@@ -12,5 +12,8 @@
     "license": "ISC",
     "devDependencies": {
         "tailwindcss": "^3.4.1"
+    },
+    "dependencies": {
+        "caniuse-lite": "^1.0.30001707"
     }
 }
