@@ -15,6 +15,7 @@
     },
     "dependencies": {
         "aos": "^2.3.4",
+        "caniuse-lite": "^1.0.30001707",
         "live-server": "^1.2.2"
     }
 }
