@@ -4,6 +4,11 @@
 
 @import url(./font.css);
 
+@layer base {
+  body {
+    @apply bg-black overflow-x-hidden;
+  }
+}
 
 .slider {
   height: auto;

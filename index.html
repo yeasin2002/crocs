@@ -1,342 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>crocs</title>
     <!-- 
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css"> -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/output.css" />
     <!-- font Family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
     <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- tailwindcss cdn  -->
-</head>
+  </head>
 
-<body class="font-{'Montserrat',sans-serif}">
+  <body class="font-{'Montserrat',sans-serif}">
     <div class="overlay"></div>
     <div class="offcanva">
-        <div class="cross">
-            <a href="#"><i class="fal fa-times"></i></a>
-        </div>
-        <div class="offcanva__menu dds">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </div>
+      <div class="cross">
+        <a href="#"><i class="fal fa-times"></i></a>
+      </div>
+      <div class="offcanva__menu dds">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- header-area-start -->
-    <header class="pt-6 md:pl-[37px] md:pr-[88px] px-[15px] flex flex-wrap justify-between items-center bg-black">
-        <div>
-            <a href="index.html"><img src="assets/img/site-logo.png" alt=""></a>
-        </div>
-        <div class="header__bar block md:hidden">
-            <a href="#" class="text-white"><i class="fa-solid fa-bars"></i></a>
-        </div>
-        <div class="md:block hidden">
-            <ul>
-                <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]"><a class="text-[12px] text-white"
-                        href="#">our
-                        service</a></li>
-                <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]"><a class="text-[12px] text-white"
-                        href="#">previous
-                        works</a></li>
-                <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]"><a class="text-[12px] text-white"
-                        href="#">teams</a>
-                </li>
-                <li class="inline-block"><a class="text-[12px] text-white" href="#">our service</a></li>
-            </ul>
-        </div>
+    <header
+      class="pt-6 md:pl-[37px] md:pr-[88px] px-[15px] flex flex-wrap justify-between items-center bg-black"
+    >
+      <div>
+        <a href="index.html"><img src="assets/img/site-logo.png" alt="" /></a>
+      </div>
+      <div class="header__bar block md:hidden">
+        <a href="#" class="text-white"><i class="fa-solid fa-bars"></i></a>
+      </div>
+      <div class="md:block hidden">
+        <ul>
+          <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]">
+            <a class="text-[12px] text-white" href="#">our service</a>
+          </li>
+          <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]">
+            <a class="text-[12px] text-white" href="#">previous works</a>
+          </li>
+          <li class="inline-block mr-[40px] lg:mr-[70px] xl:mr-[134px]">
+            <a class="text-[12px] text-white" href="#">teams</a>
+          </li>
+          <li class="inline-block">
+            <a class="text-[12px] text-white" href="#">our service</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- header-area-end -->
 
-    <!-- hero-area-start -->
-    <div class="pt-[236px] bg-black">
-        <div class="text-center pb-[467px] bg-black px-[15px]">
-            <span class="xl:text-xl text-[16px] mb-[13px] text-[#FF485E]">PFR GROUP</span>
-            <h3 class="md:text-[50px] text-[30px] text-white mb-[6px]">Hello Production</h3>
-            <p class="md:text-xl text-[16px] text-white mb-[55px]">Hello Productions crafts high quality music videos,
-                commercials and
-                television commercials. <br>
-                We collaborate with Hungary's leading artists and brands, delivering innovative and dynamic productions.
-            </p>
-            <a href="#"
-                class="w-[300px] h-[53px] rounded-[27px] bg-[#FF485E] text-white text-xl font-bold flex justify-center items-center m-auto">Get
-                in touch</a>
+    <div class="relateive">
+      <video
+        autoplay
+        muted
+        loop
+        class="absolute inset-0 w-full h-full object-cover -z-10 min-h-screen scale-[3]"
+        src="./assets/videos/hero-bg.mp4"
+      ></video>
+      <!-- hero-area-start -->
+      <div class="pt-[236px] z-20">
+        <div class="text-center pb-[467px] px-[15px]">
+          <span class="xl:text-xl text-[16px] mb-[13px] text-[#FF485E]"
+            >PFR GROUP</span
+          >
+          <h3
+            class="md:text-[50px] text-[30px] text-white mb-[6px] font-pp_monument font-bold"
+          >
+            Hello Production
+          </h3>
+          <p
+            class="md:text-xl text-[16px] text-white mb-[55px] font-pp_monument"
+          >
+            Hello Productions crafts high quality music videos, commercials and
+            television commercials. <br />
+            We collaborate with Hungary's leading artists and brands, delivering
+            innovative and dynamic productions.
+          </p>
+          <a
+            href="#"
+            class="w-[300px] h-[53px] rounded-[27px] bg-[#FF485E] text-white text-xl font-bold flex justify-center items-center m-auto"
+            >Get in touch</a
+          >
         </div>
-    </div>
-    <!-- hero-area-end -->
+      </div>
+      <!-- hero-area-end -->
 
-    <div class="pb-[100px] bg-black px-[15px]">
+      <div class="pb-[100px] px-[15px] z-20">
         <div class="lg:flex justify-between items-center max-w-[1650px] m-auto">
-            <div class="lg:w-1/2 w-full text-center mb-[40px] md:pr-10 pr-0">
-                <span class="xl:text-xl text-[16px] text-[#FF485E] mb-[14px] block">HELLO PRODUCTION</span>
-                <h3 class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] xl:m-0 mb-[20px] text-white">Let
-                    us transform your vision into <span class="text-[#FF485E]">reality.</span></h3>
-                <p class="xl:text-xl text-[16px] text-white leading-[27px]">Hello Productions crafts high quality music
-                    videos,
-                    commercials and television commercials.
-                    We collaborate with Hungary's leading artists and brands, delivering innovative and dynamic
-                    productions.
-                    Let us transform your vision into reality.</p>
+          <div class="lg:w-1/2 w-full text-start mb-[40px] md:pr-10 pr-0 ">
+            <span class="xl:text-xl text-[16px] text-[#FF485E] mb-[14px] block"
+              >HELLO PRODUCTION</span
+            >
+            <h3
+              class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] xl:m-0 mb-[20px] text-white"
+            >
+              Let us transform your <br> vision into
+              <span class="text-[#FF485E]">reality.</span>
+            </h3>
+            <p class="xl:text-xl text-[16px] text-white leading-[27px]  mt-24">
+              Hello Productions crafts high quality music videos, commercials
+              and television commercials. We collaborate with Hungary's leading
+              artists and brands, delivering innovative and dynamic productions.
+              Let us transform your vision into reality.
+            </p>
+          </div>
+          <div class="lg:w-1/2 w-full grid grid-cols-3 md:gap-10 gap-4">
+            <div class="">
+              <a class="size-full" href="#"
+                ><img
+                  src="assets/img/a1.png"
+                  alt=""
+                  class="size-full object-cover"
+              /></a>
             </div>
-            <div class="lg:w-1/2 w-full grid grid-cols-3 md:gap-10 gap-4">
-                <div class="">
-                    <a href="#"><img src="assets/img/a1.png" alt=""></a>
-                </div>
-                <div class="">
-                    <a href="#"><img src="assets/img/a1.png" alt=""></a>
-                </div>
-                <div class="">
-                    <a href="#"><img src="assets/img/a1.png" alt=""></a>
-                </div>
+            <div class="">
+              <a class="size-full" href="#"
+                ><img
+                  src="assets/img/a2.png"
+                  alt=""
+                  class="size-full object-cover rounded-xl"
+              /></a>
             </div>
+            <div class="">
+              <a class="size-full" href="#"
+                ><img
+                  src="assets/img/a3.png"
+                  alt=""
+                  class="size-full object-cover rounded-xl"
+              /></a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="bg-black pb-[404px]">
-        <div class="text-center mb-[68px]">
-            <h3 class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] text-white uppercase">previous works
-            </h3>
-        </div>
-        <div class="slider">
-            <div class="slide-track">
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
-                <div class="slide">
-                    <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
-                        <img src="assets/img/v1.png" alt="">
-                        <img class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
-                            src="assets/img/Polygon 1.png" alt="">
-                    </div>
-                    <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]">music video</a>
-                </div>
+      <div class="text-center mb-[68px]">
+        <h3
+          class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] text-white uppercase"
+        >
+          previous works
+        </h3>
+      </div>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
             </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
+          <div class="slide">
+            <div class="border border-[#FF485E] rounded-[19px] relative mb-5">
+              <img src="assets/img/v1.png" alt="" />
+              <img
+                class="absolute top-1/2 left-0 right-0 m-auto -translate-y-1/2"
+                src="assets/img/Polygon 1.png"
+                alt=""
+              />
+            </div>
+            <a href="#" class="text-[17px] leading-[22px] text-[#FF485E]"
+              >music video</a
+            >
+          </div>
         </div>
-        <a href="#"
-            class="w-[307px] h-[53px] border border-[#FF485E] rounded-[60px] text-xl text-white mt-[100px] flex justify-center items-center mx-auto">View
-            all!</a>
+      </div>
+      <a
+        href="#"
+        class="w-[307px] h-[53px] border border-[#FF485E] rounded-[60px] text-xl text-white mt-[100px] flex justify-center items-center mx-auto"
+        >View all!</a
+      >
     </div>
 
     <div class="pb-[121px] px-[15px] -mt-[304px]">
-        <div class="max-w-[1357px] m-auto">
-            <div class="text-center pb-[30px]">
-                <span class="xl:text-xl text-[16px] text-[#FF485E] mb-[14px] block uppercase">Hello production</span>
-                <h3 class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] text-white">Our team</h3>
-            </div>
-            <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-[20px]">
-                <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
-                    <div class="mb-5">
-                        <img class="w-full" src="assets/img/t1.png" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h3 class="text-xl leading-[27px] mb-5 text-black">varga- <br>
-                            szilágyi <br>
-                            zsolt</h3>
-                        <span class="text-[10px] leading-[14px] mb-5 block">co-founder</span>
-                        <a href="#"
-                            class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]">LINKEDIN</a>
-                    </div>
-                </div>
-                <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
-                    <div class="mb-5">
-                        <img class="w-full" src="assets/img/t1.png" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h3 class="text-xl leading-[27px] mb-5 text-black">varga- <br>
-                            szilágyi <br>
-                            zsolt</h3>
-                        <span class="text-[10px] leading-[14px] mb-5 block">co-founder</span>
-                        <a href="#"
-                            class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]">LINKEDIN</a>
-                    </div>
-                </div>
-                <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
-                    <div class="mb-5">
-                        <img class="w-full" src="assets/img/t1.png" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h3 class="text-xl leading-[27px] mb-5 text-black">varga- <br>
-                            szilágyi <br>
-                            zsolt</h3>
-                        <span class="text-[10px] leading-[14px] mb-5 block">co-founder</span>
-                        <a href="#"
-                            class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]">LINKEDIN</a>
-                    </div>
-                </div>
-                <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
-                    <div class="mb-5">
-                        <img class="w-full" src="assets/img/t1.png" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h3 class="text-xl leading-[27px] mb-5 text-black">varga- <br>
-                            szilágyi <br>
-                            zsolt</h3>
-                        <span class="text-[10px] leading-[14px] mb-5 block">co-founder</span>
-                        <a href="#"
-                            class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]">LINKEDIN</a>
-                    </div>
-                </div>
-                <div class="rounded-[13px] overflow-hidden">
-                    <div class="mb-5">
-                        <img class="w-full" src="assets/img/t1.png" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h3 class="text-xl leading-[27px] mb-5 text-black">varga- <br>
-                            szilágyi <br>
-                            zsolt</h3>
-                        <span class="text-[10px] leading-[14px] mb-5 block">co-founder</span>
-                        <a href="#"
-                            class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]">LINKEDIN</a>
-                    </div>
-                </div>
-            </div>
+      <div class="max-w-[1357px] m-auto">
+        <div class="text-center pb-[30px]">
+          <span
+            class="xl:text-xl text-[16px] text-[#FF485E] mb-[14px] block uppercase"
+            >Hello production</span
+          >
+          <h3
+            class="xl:text-[50px] text-[40px] xl:leading-[67px] leading-[45px] text-white"
+          >
+            Our team
+          </h3>
         </div>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-[20px]">
+          <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
+            <div class="mb-5">
+              <img class="w-full" src="assets/img/t1.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl leading-[27px] mb-5 text-black">
+                varga- <br />
+                szilágyi <br />
+                zsolt
+              </h3>
+              <span class="text-[10px] leading-[14px] mb-5 block"
+                >co-founder</span
+              >
+              <a
+                href="#"
+                class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+          <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
+            <div class="mb-5">
+              <img class="w-full" src="assets/img/t1.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl leading-[27px] mb-5 text-black">
+                varga- <br />
+                szilágyi <br />
+                zsolt
+              </h3>
+              <span class="text-[10px] leading-[14px] mb-5 block"
+                >co-founder</span
+              >
+              <a
+                href="#"
+                class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+          <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
+            <div class="mb-5">
+              <img class="w-full" src="assets/img/t1.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl leading-[27px] mb-5 text-black">
+                varga- <br />
+                szilágyi <br />
+                zsolt
+              </h3>
+              <span class="text-[10px] leading-[14px] mb-5 block"
+                >co-founder</span
+              >
+              <a
+                href="#"
+                class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+          <div class="rounded-[13px] overflow-hidden lg:mb-[100px] mb-[50px]">
+            <div class="mb-5">
+              <img class="w-full" src="assets/img/t1.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl leading-[27px] mb-5 text-black">
+                varga- <br />
+                szilágyi <br />
+                zsolt
+              </h3>
+              <span class="text-[10px] leading-[14px] mb-5 block"
+                >co-founder</span
+              >
+              <a
+                href="#"
+                class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+          <div class="rounded-[13px] overflow-hidden">
+            <div class="mb-5">
+              <img class="w-full" src="assets/img/t1.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl leading-[27px] mb-5 text-black">
+                varga- <br />
+                szilágyi <br />
+                zsolt
+              </h3>
+              <span class="text-[10px] leading-[14px] mb-5 block"
+                >co-founder</span
+              >
+              <a
+                href="#"
+                class="text-[11px] font-bold w-[116px] h-[44px] m-auto flex justify-center items-center bg-[#FF485E] text-white rounded-[27px]"
+                >LINKEDIN</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="text-center">
-        <div class="#">
-            <a href="index.html" class="mb-[36px] flex justify-center items-center text-center"><img
-                    src="assets/img/footer-logo.png" alt=""></a>
-            <h3
-                class="lg:text-[100px] md:text-[74px] text-[40px] md:leading-[133px] leading-[50px] text-black mb-10 relative">
-                Contact us! <img class="absolute bottom-[60px] xl:right-[25%] right-[10%] hidden"
-                    src="assets/img/flo.png" alt=""></h3>
-            <a href="#"
-                class="w-[116px] h-[44px] text-[11px] font-bold text-white bg-[#FF485E] flex justify-center items-center rounded-[27px] m-auto">Write
-                me!</a>
-        </div>
+      <div class="#">
+        <a
+          href="index.html"
+          class="mb-[36px] flex justify-center items-center text-center"
+          ><img src="assets/img/footer-logo.png" alt=""
+        /></a>
+        <h3
+          class="lg:text-[100px] md:text-[74px] text-[40px] md:leading-[133px] leading-[50px] text-black mb-10 relative"
+        >
+          Contact us!
+          <img
+            class="absolute bottom-[60px] xl:right-[25%] right-[10%] hidden"
+            src="assets/img/flo.png"
+            alt=""
+          />
+        </h3>
+        <a
+          href="#"
+          class="w-[116px] h-[44px] text-[11px] font-bold text-white bg-[#FF485E] flex justify-center items-center rounded-[27px] m-auto"
+          >Write me!</a
+        >
+      </div>
     </div>
 
-    <div class="text-center border-b-[30px] border-black lg:mt-[200px] mt-[150px]">
-        <a href="index.html" class="flex justify-center"><img src="assets/img/footer.png" alt=""></a>
+    <div
+      class="text-center border-b-[30px] border-black lg:mt-[200px] mt-[150px]"
+    >
+      <a href="index.html" class="flex justify-center"
+        ><img src="assets/img/footer.png" alt=""
+      /></a>
     </div>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
