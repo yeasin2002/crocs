@@ -17,6 +17,8 @@ module.exports = {
     extend: {
       fontFamily: {
         proxima_nova: ["Proxima Nova", "sans-serif"],
+        pp_monument: ["Proxima Nova", "sans-serif"],
+        montserrat: ["montserrat", "sans-serif"],
       },
       backgroundImage: {
         hero__gradient:

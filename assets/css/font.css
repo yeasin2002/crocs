@@ -1,0 +1,121 @@
+/*Proxima Nova - start */
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proximanova/proximanova-black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*Proxima Nova - start */
+
+/*montserrat - start */
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*montserrat - End  */
+
+/*pp_monumnet - Start   */
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-Black.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-BlackItalic.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-LightItalic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_monument";
+  src: url("../fonts/pp_monumnet/PPMonumentExtended-RegularItalic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*pp_monumnet - End  */
