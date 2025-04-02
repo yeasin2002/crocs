@@ -947,12 +947,88 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-@font-face {
-  font-family: '"Montserrat", sans-serif';
+/* Proxima Nova - Thin */
 
-  src: url('../fonts/proximanova-light.otf');
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-thin.otf") format('opentype');
+
+  font-weight: 100;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Light */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-light.otf") format('opentype');
 
   font-weight: 300;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Regular */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-regular.otf") format('opentype');
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Medium */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-medium.otf") format('opentype');
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Semibold */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-semibold.otf") format('opentype');
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Bold */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-bold.otf") format('opentype');
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+/* Proxima Nova - Black */
+
+@font-face {
+  font-family: 'Proxima Nova';
+
+  src: url("../fonts/proximanova/proximanova-black.otf") format('opentype');
+
+  font-weight: 900;
+
+  font-style: normal;
 }
 
 .slider {
@@ -982,12 +1058,12 @@ video {
 .slide {
   display: grid;
   place-items: center;
-  transition:0.5s;
-  cursor:pointer;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
-.slide:hover{
-  transform:scale(0.8)
+.slide:hover {
+  transform: scale(0.8);
 }
 
 .offcanva {
@@ -998,7 +1074,7 @@ video {
   z-index: 999999;
   left: -100%;
   top: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .offcanva__menu {
@@ -1018,7 +1094,7 @@ video {
   padding: 10px 20px;
   display: block;
   border-bottom: 1px solid #ddd;
-  transition: .3s;
+  transition: 0.3s;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -1027,8 +1103,8 @@ video {
 
 .offcanva__menu ul li a:hover {
   padding-left: 40px;
-  color: #ED9013;
-  border-color: #ED9013;
+  color: #ed9013;
+  border-color: #ed9013;
 }
 
 .cross a {
@@ -1045,7 +1121,7 @@ video {
   justify-content: center;
   color: #fff;
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
   border: 1px solid transparent;
   text-decoration: none;
 }
@@ -1069,7 +1145,7 @@ video {
   background: #000;
   position: fixed;
   z-index: 9999;
-  transition: .3s;
+  transition: 0.3s;
   opacity: 0.6;
   left: -100%;
   top: 0;
@@ -1085,12 +1161,12 @@ video {
 
 .cross a:hover {
   background: #fff;
-  border-color: #3C58F7;
-  color: #3C58F7;
+  border-color: #3c58f7;
+  color: #3c58f7;
 }
 
 .header__bar a:hover {
-  color: #3C58F7;
+  color: #3c58f7;
 }
 
 .header__bar.d-none {
