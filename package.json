@@ -1,20 +1,17 @@
+
 {
     "name": "crocs",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css ",
-        "dev": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+      "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "tailwindcss": "^3.4.1"
-    },
-    "dependencies": {
-        "aos": "^2.3.4",
-        "caniuse-lite": "^1.0.30001707"
-    }
-}
+      }
+  }
+  
