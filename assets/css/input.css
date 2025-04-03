@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply overflow-x-hidden
+  }
+}
+
 /* font family */
 @font-face {
   font-family: "PP Monument Extended";
@@ -77,7 +83,7 @@
     @apply border border-[#FF485E] rounded-2xl relative mb-5;
   }
   .slide-wrapper .slide-img {
-    @apply w-full min-w-full max-h-80 rounded-2xl;
+    @apply  w-80 h-80 rounded-2xl object-cover;
   }
 
   .slide-wrapper .slide-title {
