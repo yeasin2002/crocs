@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply overflow-x-hidden
+    @apply overflow-x-hidden;
   }
 }
 
@@ -69,13 +69,16 @@
   animation-play-state: paused;
 }
 
-.slide {
-  display: grid;
-  place-items: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
 @layer components {
+  .slide {
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+
+    @apply hover:scale-[0.97];
+  }
+
   .slide-container {
     @apply block text-center;
   }
@@ -83,11 +86,14 @@
     @apply border border-[#FF485E] rounded-2xl relative mb-5;
   }
   .slide-wrapper .slide-img {
-    @apply  w-80 h-80 rounded-2xl object-cover;
+    @apply w-80 h-80 rounded-2xl object-cover;
   }
 
   .slide-wrapper .slide-title {
     @apply text-[17px] leading-none text-[#FF485E] uppercase tracking-[4px];
+  }
+  .side-shadow {
+    @apply pointer-events-none absolute   w-[10%] from-black dark:from-gray-950 min-w-10 min-h-96;
   }
 }
 

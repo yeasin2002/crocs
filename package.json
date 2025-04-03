@@ -1,21 +1,16 @@
 {
     "name": "productions",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "dev:server": "live-server --port=3000 --watch=index.html",
         "dev:css": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
-        "dev": "concurrently \"npm run dev:server\" \"npm run dev:css\""
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "tailwindcss": "^3.4.1"
+        "dev": "concurrently \"npm run dev:server\" \"npm run dev:css\" "
     },
     "dependencies": {
-        "aos": "^2.3.4",
+        "aos": "^2.3.4"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.1",
         "concurrently": "^9.1.2",
         "live-server": "^1.2.2"
     }
