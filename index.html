@@ -742,7 +742,12 @@
     <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+      });
     </script>
   </body>
 </html>
