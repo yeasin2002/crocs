@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,16 +33,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
-  <body class="font-PPMonumentExtended">
+  <body class="font-PPMonumentExtended overflow-x-hidden ">
+    <!-- offcanva  -->
     <div class="overlay"></div>
     <div class="offcanva">
       <div class="cross">
-        <a
-          href="/"
+        <button
           class="absolute right-[22px] top-[10px] text-white text-[21px] bg-[#FF485E] h-[40px] w-[40px] flex items-center justify-center rounded-md transition duration-300"
           data-aos="fade-up"
           ><i class="fa-solid fa-xmark"></i
-        ></a>
+        ></>
       </div>
       <div class="offcanva__menu dds">
         <ul>
@@ -53,6 +53,8 @@
         </ul>
       </div>
     </div>
+    <!-- Offcanva End  -->
+
     <!-- header-area-start -->
     <header
       class="pt-6 lg:pl-9 lg:pr-[88px] px-4 flex flex-wrap justify-between items-center absolute top-0 left-0 w-full z-50"
@@ -90,10 +92,10 @@
     </header>
     <!-- header-area-end -->
 
-    <div class="relative">
+    <div class="relative overflow-x-hidden">
       <div class="absolute top-0 left-0 w-full h-full -z-10">
         <video
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover scale-125"
           autoplay
           muted
           playsinline
@@ -191,7 +193,7 @@
         <img
           src="./assets/img/hash.svg"
           alt="hash"
-          class="absolute top-0 right-0 z-50 pointer-events-none"
+          class="absolute top-0 right-0 z-50 pointer-events-none size-96"
         />
 
         <div  >
@@ -772,6 +774,7 @@
         duration: 600,
         easing: "ease-in-sine",
         delay: 100,
+        once: true
       });
     </script>
   </body>
